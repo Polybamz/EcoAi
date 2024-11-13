@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    background-position: 0%;
+    background-color: rgb(79, 79, 136);
+
+}
+
+#submit-btn{
+    height: 40px;
+    width: 20%;
+    background-color: white;
+    color: #4CAF50;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 10px
+
+}
+
+#submit-btn:hover{
+    background-color: #3e8e41;
+    color: white;
+}
